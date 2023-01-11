@@ -1,0 +1,29 @@
+.title {
+    size: 100px;
+    margin: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.color {
+    color: rgb(184, 23, 149);
+}
+
+.search_bar {
+    margin: auto;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(239, 239, 239);
+    border-radius: 20px;
+    display: flex;
+}
+
+.input {
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    background: none;
+    border: none;
+    justify-content: center;
+    
+}
