@@ -1,0 +1,13 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inputBoxes {
+    display: flex;
+    flex-direction: column;
+}
+.accent { 
+    color: rgb(184, 23, 149);
+}
+#password1 {
+    color: white;
+}
