@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.panel {
+    display: flex;
+    background-color: rgb(189, 64, 64);
+    width: 100%;
+    padding: 20px;
+}
+
+.panel_button {
+    margin: 0px 20px 0px 20px;
+    background: none;
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.panel_button_right {
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+.title {
+    font-size: 30px;
+    margin: 40px;
+    text-align: left;
+}
+
+.color {
+    color: rgb(189, 64, 64);
+}
+
+.slot_choice_container {
+    display: flex;
+    direction: row;
+    padding-bottom: 40px;
+}
+
+.pic_container {
+    background-color: rgb(189, 64, 64);
+    border-radius: 40px;
+    margin: auto;
+    align-self: center;
+    width: 60%;
+    padding: 40px;
+}
+
+.mentor_pic_big {
+    margin-bottom: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.booking_info {
+    margin: 40px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+.slots {
+    font-size: 20px;
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+}
+
+.conf_button {
+    background-color: white;
+    color:black;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0, 20px, 0;
+    border-radius: 30px;
+}
