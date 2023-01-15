@@ -1,13 +1,44 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.inputBoxes {
-    display: flex;
-    flex-direction: column;
+
+.panel {
+    /* display: flex; */
+    background-color: rgb(189, 64, 64);
+    width: 100%;
+    padding: 20px;
 }
-.accent { 
-    color: rgb(184, 23, 149);
+.footer {
+    position: relative;
+    bottom: 0px;
+    /* flex-direction: column; */
+    /* margin-top: 40px; */
 }
-#password1 {
+.copyright {
     color: white;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid black;
+    max-width: 400px;
+    margin: 5%;
+    padding: 10px;
+    gap: 10px;
+}
+
+.inputField {
+    height: 2.5rem;
+}
+.button {
+    background: red;
+    color: white;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    align-self: flex-end;
+    flex-basis: 50px;
+    width: 120px;
 }
