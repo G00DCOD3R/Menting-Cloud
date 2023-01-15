@@ -5,20 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign-up</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
     <center>
         <h1 class="title">Sign <span style = "color: rgb(189, 64, 64);">Up</span></h1>
         <div class="form">
-            <input class = "inputField" type="text" placeholder="Username">
-            <input class = "inputField" type="text" placeholder="First name">
-            <input class = "inputField" type="text" placeholder="Last name">
-            <input class = "inputField" type="password" id="password" placeholder="Password">
-            <input class = "inputField" type="password" id="password2" placeholder="Repeat your password">
-            <input class = "inputField" type="email" id="email" placeholder="Email">
+            <select class = "inputField" name="personType" id="personType">
+                <option value="Role">Role</option>
+                <option value="Mentor">Mentor</option>
+                <option value="Mentee">Mentee</option>
+            </select>
+            <select name="sex" id="sex" class="inputField">
+                <option value="Sex">Sex</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <textarea class="inputField bio" name="bio" id="bio" cols="30" rows="20" style="font-size: large;">Bio</textarea>
             <div class="innerRow">
-                <h3 class = "stepNumber"><b>Step 1 out of 3</b></h3>
+                <h3 class = "stepNumber"><b>Step 3 out of 3</b></h3>
                 <button class="button">Next </button>
             </div>
         </div>

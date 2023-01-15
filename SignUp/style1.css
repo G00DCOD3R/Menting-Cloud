@@ -1,0 +1,53 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid rgb(101, 94, 94);
+    justify-content: center;
+    gap: 10px;
+    margin: 5%;
+    padding: 15px 5px 0px 5px;
+    max-width: 400px;
+    min-height: 400px;
+}
+.inputField {
+    height: 2.5rem;
+    font-size: large;
+    /* flex-grow: 0.4; */
+}
+.innerRow {
+    /* flex-grow: 0.9; */
+    display: flex;
+    /* margin: 5%; */
+    height: 2.5rem;
+    gap:5px;
+    /* justify-content: space-between; */
+    text-align: center;
+}
+.stepNumber {
+    flex-grow: 1;
+}
+.button {
+    font-size: larger;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+    border: none;
+    flex-grow: 1;
+    align-self: stretch;
+}
+
+.city {
+    align-self: stretch;
+    /* flex-grow: 3; */
+    flex-shrink: 1;
+    /* flex-basis: 120px; */
+}
+.zipCode {
+    align-self: stretch;
+    /* flex-grow: 1; */
+    flex-shrink: 2;
+}

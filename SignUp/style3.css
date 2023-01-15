@@ -4,22 +4,23 @@
 
 .form {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     border: 1px solid rgb(101, 94, 94);
-    justify-content: center;
-    /* gap: 10px; */
+    /* justify-content: center; */
+    align-items: space-between;
+    gap: 10px;
     margin: 5%;
     padding: 15px 5px 5px 5px;
     max-width: 400px;
-    min-height: 400px;
+    min-height: 500px;
 }
 .inputField {
     height: 2.5rem;
     font-size: large;
-    flex-grow: 0.4;
+    /* flex-grow: 1; */
 }
 .innerRow {
-    flex-grow: 0.9;
+    /* flex-grow: 0.4; */
     display: flex;
     /* margin: 5%; */
     height: 2.5rem;
@@ -28,12 +29,8 @@
     text-align: center;
     align-items: center;
 }
-.innerRow2 {
-    display: flex;
-    /* margin: 5%; */
-    height: 2.5rem;
-    gap:5px;
-    /* justify-content: space-between; */
+.bio {
+    flex-grow: 1;
 }
 .stepNumber {
     flex-grow: 1;
@@ -46,16 +43,4 @@
     border: none;
     flex-grow: 1;
     align-self: stretch;
-}
-
-.city {
-    align-self: stretch;
-    /* flex-grow: 3; */
-    flex-shrink: 1;
-    /* flex-basis: 120px; */
-}
-.zipCode {
-    align-self: stretch;
-    /* flex-grow: 1; */
-    flex-shrink: 2;
 }
