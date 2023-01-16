@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sign-up</title>
-    <link rel="stylesheet" href="style3.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-up</title>
+        <link rel="stylesheet" href="../shared_style.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
 <body>
-    <center>
-        <h1 class="title">Sign <span style = "color: rgb(189, 64, 64);">Up</span></h1>
+    <div class="site_content">
+        <h1 class="title center">Sign <span class="color">Up</span></h1>
         <div class="form">
             <select class = "inputField" name="personType" id="personType">
                 <option value="Role">Role</option>
@@ -22,14 +23,12 @@
                 <option value="Female">Female</option>
                 <option value="Other">Other</option>
             </select>
-            <textarea class="inputField bio" name="bio" id="bio" cols="30" rows="20" style="font-size: large;">Bio</textarea>
-            <div class="innerRow">
-                <h3 class = "stepNumber"><b>Step 3 out of 3</b></h3>
-                <button class="button">Next </button>
-            </div>
+            <textarea class="inputField bio" cols="30" rows="20">Bio</textarea>
+            <p class = "stepNumber"><b>Step 3 out of 3</b></p>
+            <a class="button" href="../SignIn/sign-in.html">Next</a>
         </div>
         
-    </center>
+    </div>
 
     <div class="panel footer">
         <p class="copyright">©2023 Menting Cloud</p>
