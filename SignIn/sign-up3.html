@@ -11,22 +11,22 @@
 <body>
     <div class="site_content">
         <h1 class="title center">Sign <span class="color">Up</span></h1>
-        <div class="form">
-            <select class = "inputField" name="personType" id="personType">
-                <option value="Role">Role</option>
+        <form class="form" action="./sign-in.html">
+            <select class = "inputField" name="personType" id="personType" required>
+                <option value="" disabled selected>Role</option>
                 <option value="Mentor">Mentor</option>
                 <option value="Mentee">Mentee</option>
             </select>
-            <select name="sex" id="sex" class="inputField">
-                <option value="Sex">Sex</option>
+            <select name="sex" id="sex" class="inputField" required>
+                <option value="" disabled selected>Sex</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
                 <option value="Other">Other</option>
             </select>
             <textarea class="inputField bio" cols="30" rows="20">Bio</textarea>
             <p class = "stepNumber"><b>Step 3 out of 3</b></p>
-            <a class="button" href="../SignIn/sign-in.html">Next</a>
-        </div>
+            <input class="button" type="submit" value="Submit">
+        </form>
         
     </div>
 

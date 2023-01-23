@@ -9,18 +9,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script>
+    </script>
     <div class="site_content">
         <h1 class="title center">Sign <span class = "color">Up</span></h1>
-        <div class="form">
-            <input class = "inputField" type="text" placeholder="Username">
-            <input class = "inputField" type="text" placeholder="First name">
-            <input class = "inputField" type="text" placeholder="Last name">
-            <input class = "inputField" type="password" id="password" placeholder="Password">
-            <input class = "inputField" type="password" id="password2" placeholder="Repeat your password">
-            <input class = "inputField" type="email" id="email" placeholder="Email">
+        <form class="form" action="./sign-up2.html">
+            <input
+                class = "inputField"
+                type="text" 
+                placeholder="Username" 
+                required
+                minlength="5"
+                maxlength="12"
+            >
+            <input 
+                class = "inputField" 
+                type="text" 
+                placeholder="First name"
+                required
+            >
+            <input 
+                class = "inputField" 
+                type="text" 
+                placeholder="Last name"
+                required
+            >
+            <input 
+                class = "inputField"
+                type="password" 
+                id="password" 
+                placeholder="Password"
+                minlength="12"
+                required
+            >
+            <input class = "inputField" type="email" id="email" placeholder="Email" required>
             <p class = "stepNumber"><b>Step 1 out of 3</b></p>
-            <a class="button" href="../SignIn/sign-up2.html">Next</a>
-        </div>
+            <input class="button" type="submit" value="Next">
+        </form>
         
     </div>
 
