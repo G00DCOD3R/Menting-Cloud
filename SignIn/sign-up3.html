@@ -7,8 +7,23 @@
         <title>Sign-up</title>
         <link rel="stylesheet" href="../shared_style.css">
         <link rel="stylesheet" href="style.css">
+        <script src = "track.js"></script>
     </head>
-<body>
+<body onload = "getTime(); setInterval('getTime()', 100)">
+    <div class = "userTracker">
+        <p id = "mouseClicks">
+            Mouse clicks = 0
+        </p>
+        <p id = "timeSpent">
+            Time spent = 00:00:00s
+        </p>
+        <p id = "keysPressed">
+            Keys pressed = 0
+        </p>
+        <p id = "charsTyped">
+            Characters typed = 0
+        </p>
+    </div>
     <div class="site_content">
         <h1 class="title center">Sign <span class="color">Up</span></h1>
         <div class="form">
