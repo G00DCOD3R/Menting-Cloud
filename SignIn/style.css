@@ -61,3 +61,11 @@
 .link {
     color: rgb(189, 64, 64);
 }
+
+.userTracker {
+    position: absolute; 
+    bottom: 0px;
+    right: 0px;
+    font-size: 10px;
+    color: white;
+}
