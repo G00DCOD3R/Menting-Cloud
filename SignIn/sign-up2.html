@@ -7,21 +7,22 @@
         <title>Sign-up</title>
         <link rel="stylesheet" href="../shared_style.css">
         <link rel="stylesheet" href="style.css">
+        <script src="validate.js"></script>
     </head>
 <body>
     <div class="site_content">
         <h1 class="title center">Sign <span class = "color">Up</span></h1>
-        <div class="form">
-            <input class = "inputField" type="text" placeholder="Country">
+        <form class="form" action = "">
+            <input class = "inputField" type="text" placeholder="Country" id = "country" required>
             <div class = "innerRow">
                 <input class = "city" type="text" placeholder="City">
-                <input class = "zipCode" type="text" placeholder="Zip code">
+                <input class = "zipCode" type="text" placeholder="Zip code" id = "zipCode">
             </div>
             <input class = "inputField" type="text" placeholder="Street name">
-            <input class = "inputField" type="text" placeholder="Language">
+            <input class = "inputField" type="text" placeholder="Language"  id = "language" required>
             <p class = "stepNumber"><b>Step 2 out of 3</b></p>
-            <a class="button" href="../SignIn/sign-up3.html">Next</a>
-        </div>
+            <button class="button" onclick="validate2()">Next</button>
+        </form>
         
     </div>
 
