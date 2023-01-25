@@ -15,7 +15,12 @@
             <input class = "inputField" type="text" placeholder="Country">
             <div class = "innerRow">
                 <input class = "city" type="text" placeholder="City">
-                <input class = "zipCode" type="text" placeholder="Zip code">
+                <input 
+                    class = "zipCode" 
+                    type="text" 
+                    placeholder="Zip code"
+                    pattern="[0-9]{4}[A-Z]{2}"
+                >
             </div>
             <input class = "inputField" type="text" placeholder="Street name">
             <input class = "inputField" type="text" placeholder="Language">
