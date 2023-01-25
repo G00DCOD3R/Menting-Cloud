@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="./validation.js"></script>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,13 +20,12 @@
                     class = "zipCode" 
                     type="text" 
                     placeholder="Zip code"
-                    pattern="[0-9]{4}[A-Z]{2}"
                 >
             </div>
             <input class = "inputField" type="text" placeholder="Street name">
             <input class = "inputField" type="text" placeholder="Language">
             <p class = "stepNumber"><b>Step 2 out of 3</b></p>
-            <a class="button" href="../SignIn/sign-up3.html">Next</a>
+            <button class="button" onclick="validate_form2()">Next</a>
         </div>
         
     </div>

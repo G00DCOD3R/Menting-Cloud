@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="./validation.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,44 +12,34 @@
 <body>
     <div class="site_content">
         <h1 class="title center">Sign <span class = "color">Up</span></h1>
-        <form class="form" action="./sign-up2.html">
+        <div class="form">
             <input
                 class = "inputField"
                 type="text" 
                 placeholder="Username" 
-                required
-                pattern="[A-Z]{1}.{3,10}[0-9!@#$%\^&*)(+=._-]*$"
+                id="username"
             >
             <input 
                 class = "inputField" 
                 type="text" 
                 placeholder="First name"
-                required
+                id="name_f"
             >
             <input 
                 class = "inputField" 
                 type="text" 
                 placeholder="Last name"
-                required
+                id="name_l"
             >
             <input 
                 class = "inputField"
                 type="password" 
-                id="password" 
                 placeholder="Password"
-                pattern=".{12,}"
-                required
+                id="password"
             >
-            <input 
-                class = "inputField" 
-                type="text" 
-                id="email" 
-                placeholder="Email" 
-                required
-                pattern="[\w-\.]{1,}[@]{1}[\w-\.]{1,}[\.]{1}[\w-\.]{1,}"
-            >
+            <input class = "inputField" type="email" id="email" placeholder="Email">
             <p class = "stepNumber"><b>Step 1 out of 3</b></p>
-            <a class="button" href="../SignIn/sign-up2.html">Next</a>
+            <button class="button" onclick="validate_form1()">Next</button>
         </div>
         
     </div>
